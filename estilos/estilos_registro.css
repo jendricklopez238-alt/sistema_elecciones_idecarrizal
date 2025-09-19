@@ -1,20 +1,20 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(15, 228, 217);
+    background-color: #f8f8f8;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
-header{
-    background-color: rgb(35, 0, 235);
-    color: rgb(74, 255, 171);
+header {
+    background-color: #004080;
+    color: white;
     padding: 20px;
 }
 
 nav a {
     margin: 0 10px;
-    color: rgb(255, 255, 0);
+    color: white;
     text-decoration: none;
     font-weight: bold;
 }
@@ -31,24 +31,23 @@ nav a {
     display: block;
 }
 
-
 section.info {
     padding: 20px;
     text-align: left;
     max-width: 700px;
     margin: auto;
-    background-color: rgb(233, 0, 0);
+    background-color: white;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
 
-form{
-    background-color: aliceblue;
+form {
+    background: white;
     padding: 20px;
     max-width: 400px;
     margin: 30px auto;
     border-radius: 10px;
-    box-shadow: 0 0 10px  rgb(209, 29, 29);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 input, textarea, button {
@@ -58,26 +57,26 @@ input, textarea, button {
     font-size: 16px;
 }
 
-button{
-    background-color: blue;
-    color: aqua;
+button {
+    background-color: #004080;
+    color: white;
     border: none;
-    cursor:  pointer;
+    cursor: pointer;
     border-radius: 5px;
 }
 
 button:hover {
-     background-color: blue;
+    background-color: #00264d;
 }
 
 footer {
-    background-color: blue;
-    color: beige;
+    background-color: #004080;
+    color: white;
     padding: 10px;
     margin-top: 30px;
 }
 
-select{
+select {
     width: 95%;
     padding: 10px;
     font-size: 16px;
@@ -93,22 +92,23 @@ select{
     text-align: left;
 }
 
-.form-group{
+.form-group {
     display: flex;
     flex-direction: column;
 }
 
 @media (max-width: 90%) {
-    .form-grid{
+    .form-grid {
         grid-template-columns: 1fr;
     }
 }
 
-/* Estilos de formularios de registro */
-form{
-    background-color: #ffb42a;
+/* Estilo del formulario de registro */
+form {
+    background-color: #ffffff;
     padding: 30px;
-    border-radius: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     max-width: 100%;
     margin-top: 10px;
     margin: 50px;
